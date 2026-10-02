@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
-2-decorator.py: Implementing CaramelDecorator using the Decorator design pattern.
+2-decorator.py: Implementing CaramelDecorator using
+the Decorator design pattern.
 """
 from abc import ABC, abstractmethod
 
@@ -59,7 +60,9 @@ def main():
     beverage2 = MilkDecorator(SugarDecorator(Coffee()))
     print(f"{beverage2.description()} {int(beverage2.cost())}")
 
-    beverage3 = CaramelDecorator(MilkDecorator(SugarDecorator(Coffee())))
+    beverage3 = CaramelDecorator(
+        MilkDecorator(SugarDecorator(Coffee()))
+    )
     print(f"{beverage3.description()} {int(beverage3.cost())}")
 
 
