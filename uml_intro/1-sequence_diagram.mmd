@@ -1,0 +1,12 @@
+sequenceDiagram
+    autonumber
+    participant User
+    participant Library
+    participant Book
+
+    User->>Library: create_loan(book, user)
+    Library->>Book: mark_as_unavailable()
+    create participant Loan
+    Library-->>Loan: new Loan()
+    Library-->>User: loan requested
+    Library-->>User: loan created
