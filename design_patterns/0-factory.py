@@ -49,8 +49,7 @@ def main():
     factory.register_kind("bus", Bus)
     factory.register_kind("train", Train)
     factory.register_kind("bike", Bike)
-    
-    # Registering the new scooter type
+
     factory.register_kind("scooter", Scooter)
 
     print(factory.create("bus").mode())
