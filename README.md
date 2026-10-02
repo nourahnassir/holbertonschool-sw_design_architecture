@@ -1,6 +1,6 @@
 # Introduction to UML Modeling
 
-This project introduces UML (Unified Modeling Language) representation for software systems using Mermaid. It models a small **Library Loan System** containing books, users, and loans.
+This project models a small **Library Loan System** using Mermaid diagrams as part of the Holberton software engineering curriculum.
 
-## Structure
-* `uml_intro/0-class_diagram.mmd`: Mermaid class diagram representing the system structure, classes, attributes, methods, and relationships.
+## Directory Structure
+* `uml_intro/0-class_diagram.mmd`: Class diagram representing the system structure, classes, attributes, methods, and relationships.
